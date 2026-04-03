@@ -8,6 +8,14 @@ console.log(typeof intScore);
 
 console.log(intScore); // -> is 77abc is not a Number it will give NaN so we must do conversions very carefully!
 
+
+let isLoggedIn = 1
+
+let boolIsLogIn = Boolean(isLoggedIn)
+console.log(isLoggedIn);
+
+console.log(boolIsLogIn);
+
 /*
 
     Converting String Integer to Int -> Number
@@ -17,3 +25,4 @@ console.log(intScore); // -> is 77abc is not a Number it will give NaN so we mus
     Converting boolean to Int -> 1 : true or 0 : false
 
  */
+
