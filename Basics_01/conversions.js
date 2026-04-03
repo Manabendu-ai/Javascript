@@ -10,10 +10,8 @@ console.log(intScore); // -> is 77abc is not a Number it will give NaN so we mus
 
 
 let isLoggedIn = 1
-
 let boolIsLogIn = Boolean(isLoggedIn)
 console.log(isLoggedIn);
-
 console.log(boolIsLogIn);
 
 /*
@@ -25,4 +23,17 @@ console.log(boolIsLogIn);
     Converting boolean to Int -> 1 : true or 0 : false
 
  */
+
+// Boolean Conversions:
+
+let myName = ""
+console.log(Boolean(myName))  // "" -> false
+myName = "Deeksha H A"
+console.log(Boolean(myName)); // "String" -> true
+
+
+// String Conversion
+let num = 45;
+console.log(String(num));
+
 
