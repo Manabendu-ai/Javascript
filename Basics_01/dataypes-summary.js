@@ -36,3 +36,29 @@ const greet = function(master) {
 }
 
 greet("Deeksha H A");
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// There are two types of Memory
+
+// Stack (primitive types), Heap(Non-primitive types)
+
+let name1 = "Pramith Vinod"
+let name2 = name1;
+name2 = "Jevial M Kale"
+console.log(name1)
+console.log(name2);
+
+let emp1 = {
+    email : "pramithVinod21@gmail.com",
+    upi : "pramith@ybl"
+}
+
+let emp2 = emp1;
+emp2.email = "jevialkale11@gmail.com" // directly referencing from th heap!
+
+console.log(emp1.email); // The value will be changed
+
+
+
